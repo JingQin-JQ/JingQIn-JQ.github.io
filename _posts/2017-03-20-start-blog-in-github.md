@@ -7,5 +7,6 @@ tags:
 ---
 ## Hello world!
 
-![alt text](../images/2017-03-20/cute_cat.jpg)
+![cute cat]({{ site.baseurl }}/images/2017-03-20/cute_cat.jpg)
 
+  

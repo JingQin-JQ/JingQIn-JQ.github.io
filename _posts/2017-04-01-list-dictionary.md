@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Study notes about funtion return, list and dictionary
+title: Funtion return, list and dictionary
 tags: 
 - Python Study
 ---
+Study notes about how to return a function, how to get  elements from list or dictionary.
+
 ### Return
 
 Only when I want to quit my functions, multiple returns is acceptable.

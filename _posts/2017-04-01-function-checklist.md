@@ -1,9 +1,11 @@
 ---
 layout: post
-title: function checklist
+title: Function checklist
 tags: 
 - Python Study
 ---
+A function cheklist for built a function.
+
 # function checklist 
 
 - Did you start your function definition with def?

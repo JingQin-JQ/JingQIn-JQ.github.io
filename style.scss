@@ -344,3 +344,21 @@ h1{font-size:30px;line-height:36px;}h1 small{font-size:18px;}
 // h4{font-size:14px;}h4 small{font-size:12px;}
 // h5{font-size:12px;}
 // h6{font-size:11px;color:#999999;text-transform:uppercase;}
+
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}

@@ -69,24 +69,28 @@ version: v1.1.0
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
-# Pagination Settings
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: '/page/:num/'
-  title: ':title - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-  trail: 
-    before: 2 # The number of links before the current page
-    after: 2  # The number of links after the current page
+paginate: 5
+paginate_path: "page:num"
+
+# # Pagination Settings
+# pagination:
+#   enabled: true
+#   per_page: 5
+#   permalink: '/page/:num/'
+#   title: ':title - page :num'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
+#   trail: 
+#     before: 2 # The number of links before the current page
+#     after: 2  # The number of links after the current page
 
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jemoji
+  - jekyll-feed
   
 # Exclude these files from your production _site
 exclude:

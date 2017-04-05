@@ -21,7 +21,7 @@ gem "minima", "~> 2.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jekyll-sitemap", "~> 1.0.0"
-   gem "jekyll-paginate-v2"
+   gem "jekyll-paginate"
    gem "jekyll-feed"
    gem "jemoji", "~> 0.8.0"
 end

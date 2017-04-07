@@ -6,19 +6,19 @@ tags:
 ---
 Useful linux commands and examples.
 
-### ls(list)，查看当前位置都有哪些文件(夹)。
+### ls(list)，List files
 ```shell
 cricode@ubuntu:~$ ls
 Desktop  music  mydocs  python
 ```
-### pwd(print work directory), 查看你所处的位置.
+### pwd(print work directory), Show current directory
 
 ```shell
 cricode@ubuntu:~$ pwd
 /home/cricode
 ```
 
-### mkdir, 创建一个目录(文件夹)
+### mkdir, Make directory dir
 
 ```shell
 cricode@ubuntu:~$ mkdir cprogram
@@ -27,13 +27,13 @@ cprogram  Desktop  music  mydocs  python
 ```
 
 
-### cd, 切换目录(路径)
+### cd, Switch directory (path)
 
 ```shell
 cricode@ubuntu:~$ cd cprogram/
 cricode@ubuntu:~/cprogram$ 
 ```
-### touch, 创建文件
+### touch, Create file
 
 ```shell
 cricode@ubuntu:~/cprogram$ touch hello.c
@@ -41,12 +41,12 @@ cricode@ubuntu:~/cprogram$ ls
 hello.c
 ```
 
-### vim, 编辑文件
+### vim, edit file
 
 ```shell
 cricode@ubuntu:~/cprogram$ vim hello2.c
 ```
-### cat, 查看文件内容
+### cat, output
 
 ```shell
 cricode@ubuntu:~/cprogram$ cat hello.c 
@@ -56,7 +56,7 @@ int main()
     printf("hello,world!\nwelcome to cricode.com\n");
 }
 ```
-### cd -，退到上一次所处的位置
+### cd -，Go back to last location
 
 ```shell
 Blog git:(master) cd -
@@ -65,14 +65,14 @@ Blog git:(master) cd -
 images git:(master) cd -
 ~/Github/Blog
 ```
-### cd ..，退到上一级位置
+### cd ..，Go up a directory
 
 ```shell
 images git:(master) cd ..
 Blog git:(master) 
 ```
 
-### rm -r, 删除文件夹及其文件夹下的所有文件
+### rm -r, Delete file and everything under it
 
 ``` shell
 cricode@ubuntu:~$ ls
@@ -81,22 +81,22 @@ cricode@ubuntu:~$ rm -r cprogram/
 cricode@ubuntu:~$ ls
 Desktop  music  mydocs  python
 ```
-### 其他：
-* ifconfig：配置IP地址，默认网关地址等
+### Others：
+* ifconfig：Configure the IP address, the default gateway address, and so on
 
-* man：操作手册，例如:man ifconfig,便可查看ifconfig命令的具体用法
+* man：Manual, for example: man ifconfig, you can view the specific usage of the ifconfig command
 
-* find：查找文件
+* find：Find file
 
-* grep：搜索指定文件中包含给定字符串或者单词的行，相当有用的一个命令
+* grep：Search for a command that contains a given string or word line, a useful command
 
-* df：查看磁盘的使用情况
+* df：View the usage of the disk
 
-* ps ：查看进程状态
+* ps ：View the status of the process
 
-* top：查看进程cpu、内存占用情况
+* top：View the process of cpu, memory usage
 
-* ping：检查网络连通性
+* ping：Check network connectivity
 
 
 

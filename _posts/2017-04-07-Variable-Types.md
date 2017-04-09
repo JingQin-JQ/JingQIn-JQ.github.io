@@ -6,11 +6,11 @@ tags:
 ---
 Study notes about Python Variable Types and  What can be done on the variable.
 
-###Built-in Data types
+### Built-in Data types
 
 - Boolean: the type of the built-in values True and False. 
   * Boolean Operations — and, or, not
-- ####Numeric types:
+- #### Numeric types:
 
   * int: Integers
   * long: Long integers of non-limited lengthfloat: 
@@ -37,7 +37,7 @@ x ** y	|x to the power y
 
 
   
-####Sequences:
+#### Sequences:
 
   * str: String
   * list
@@ -60,7 +60,7 @@ max(s)	|largest item of s
 s.index(x)	|index of the first occurrence of x in s	 
 s.count(x)	|total number of occurrences of x in s
 
-####Sets:
+#### Sets:
 
   * set: an unordered collection of unique objects; 
   * frozen set: like set, but immutable (Only mutable objects support methods that change the object in place); 
@@ -82,7 +82,7 @@ s.symmetric_difference(t)	|s ^ t|	new set with elements in either s or t but not
 s.copy()	 	| | new set with a shallow copy of s
    
    
-#####The following table lists operations available in Set but not found in ImmutableSet:
+##### The following table lists operations available in Set but not found in ImmutableSet:
    
    
 |Operation	|Equivalent	|Result
@@ -97,7 +97,7 @@ s.discard(x)	| | 	removes x from set s if present
 s.pop()	| | 	remove and return an arbitrary element from s; raises KeyError if empty
 s.clear()	 | |	remove all elements from set s
   
-####Mappings: 
+#### Mappings: 
    * dict: Python dictionaries,which means that an element of the list is associated with a definition, 
 
 ##### operations
@@ -131,7 +131,7 @@ viewvalues()|Return a new view of the dictionary’s values. See below for docum
 
  
 
-###Comparison operations are supported by all objects.
+### Comparison operations are supported by all objects.
 
 |Operation	|Meaning	|
 --- | --- | 

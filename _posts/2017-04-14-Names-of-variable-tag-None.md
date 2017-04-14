@@ -21,11 +21,11 @@ label, has_label, _ = text.partition(':')
 
 * The latter two purposes can conflict, so it is necessary to avoid using _ as a throwaway variable in any code block that also uses it for i18n translation (many folks prefer a double-underscore, __, as their throwaway variable for exactly this reason).
 
-### <a tag
+### \<a\> tag
 
 * The a tagtag defines a hyperlink, which is used to link from one page to another.
 
-* The most important attribute of the <a element is the href attribute, which indicates the link's destination.
+* The most important attribute of the \<a\> element is the href attribute, which indicates the link's destination.
 
 * By default, links will appear as follows in all browsers:
    
@@ -36,11 +36,11 @@ label, has_label, _ = text.partition(':')
    * An active link is underlined and red
   
 ### href Attribute   
-* For <a and <area elements, the href attribute specifies the URL of the page the link goes to.
+* For \<a\> and \<area\> elements, the href attribute specifies the URL of the page the link goes to.
 
-* For <base elements, the href attribute specifies the base URL for all relative URLs on a page.
+* For \<base\> elements, the href attribute specifies the base URL for all relative URLs on a page.
 
-* For <link elements, the href attribute specifies the location (URL) of the external resource (most often a style sheet file).
+* For \<link\> elements, the href attribute specifies the location (URL) of the external resource (most often a style sheet file).
 
 ###  Attributes
 * All HTML elements can have attributes

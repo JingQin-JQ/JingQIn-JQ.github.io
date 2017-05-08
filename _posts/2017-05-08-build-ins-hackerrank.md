@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Buildinsfrom Hackerrank
+title: Buildins from Hackerrank
 
 tags: 
 - Python Study

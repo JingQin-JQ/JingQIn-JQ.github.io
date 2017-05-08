@@ -6,8 +6,9 @@ tags:
 - Python Study
 ---
 Study notes about string
+
 ### String
-#####print string with locations
+##### print string with locations
 * Example
 
 Task

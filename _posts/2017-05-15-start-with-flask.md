@@ -45,6 +45,7 @@ Just add "debug=True" to your function as a parameter.
 app.run(debug=True) 
 ```
 you will see your **http://localhost:5000/** as this if you have bugs in your code.
+
 ![Alt Image Text](http://flask.pocoo.org/docs/0.12/_images/debugger.png "Type Error")
 
 ### route
@@ -123,4 +124,8 @@ This can be easilly done by add a parameter to my app.run(). By default it runs 
 ```python
 app.run(host='0.0.0.0', debug=True)
 ```
+<<<<<<< HEAD
 ### Now I can take it to show off!!
+=======
+### Now i can take it to show off!!
+>>>>>>> 2c717cff88683071fc3ae0ab5e46de6b734c499b

@@ -30,7 +30,7 @@ def getstr(r,g,b,alpha=256):
     make pixel to chars
     '''
 
-    if alpha==0:
+    if alpha==0: 
         return ' '
     lens=len(ascii_char)
 
@@ -75,7 +75,7 @@ input:
 
 Hello-Kitty-Doctor-Who-Weeping-Angel-Die-Cut-Vinyl-Decal-PV1972.png
 
-50x30
+50x30 
 output:
 
           '$$$'                  .$$$$$.

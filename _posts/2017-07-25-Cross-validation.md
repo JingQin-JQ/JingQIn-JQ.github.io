@@ -46,12 +46,15 @@ What if the data is not not evenly distributed？  This will result in overfitti
 ### Cross validation
 Cross validation is quit similar to train\_test\_split, but it’s applied to more subsets. Meaning, we split our data into k subsets, and train on k-1 subsets, and hold one subset for the test. We’re able to hold test set for each of all k subsets.
 
-![test](https://raw.githubusercontent.com/JingQin-JQ/JingQIn-JQ.github.io/0562ad9434fa7d1bd8f1b05e479a52a469f446bc/images/2017-06-28/Screen%20Shot%202017-06-28%20at%2020.47.02.png)
+![test](https://raw.githubusercontent.com/JingQin-JQ/JingQIn-JQ.github.io/master/images/2017-07-25/1-4G__SV580CxFj78o9yUXuQ.png)
+
 
 ##### K-Folds Cross Validation
 We split our data into k different folds. We use k-1 folds to train our data and leave the last folds as test data. We then average the model against each of the folds and then finalise our model. After that, we test it against the test set.
 
-Here we use XGBoost model as exxample:
+![test](https://raw.githubusercontent.com/JingQin-JQ/JingQIn-JQ.github.io/master/images/2017-07-25/1-J2B_bcbd1-s1kpWOu_FZrg.png)
+
+Here we use XGBoost model as example:
 
 ```python
 clf = XGBClassifier(min_child_weight  = 10)

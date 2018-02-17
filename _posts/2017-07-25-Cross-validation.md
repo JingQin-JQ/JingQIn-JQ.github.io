@@ -86,3 +86,32 @@ scores = cross_val_score(clf, XScaled, yScaled, cv=5, scoring='roc_auc')
 print("roc_auc: %0.4f (+/- %0.4f)" % (scores.mean(), scores.std() * 2))
 ```
 roc_auc: 0.8627 (+/- 0.0068)
+
+scoring can choose from a whole list of diffrent values:
+
+<http://scikit-learn.org/stable/modules/model_evaluation.html>
+
+Classification:
+	 	 
+‘accuracy’
+‘average\_precision’
+‘f1’, ‘f1\_micro’
+‘f1\_macro’ 
+‘f1\_weighted’	
+‘f1\_samples’
+‘neg\_log\_loss’
+‘precision’
+‘recall’
+‘roc\_auc’	
+
+Clustering:
+	 	 
+‘adjusted\_rand\_score’	
+	 
+Regression:
+ 	 
+‘neg\_mean\_absolute\_error’
+‘neg\_mean\_squared\_error’
+‘neg\_median\_absolute_error’
+‘r2’
+	

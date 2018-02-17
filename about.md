@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Zhe Sun is a Data Scientist in banking field. He loves coding, badminton, watching films and travelling.
+Jing Qin is a Neurobiologist aim to become a Data Scientist. She loves coding, cooking, gardening and diving.
 
 ### Contact me
 
-[ymwdalex@gmail.com](mailto:ymwdalex@gmail.com)
+[ymndjq@gmail.com](mailto:ymndjq@gmail.com)
